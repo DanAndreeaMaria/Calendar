@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: #2C004F;
+}
+
+.glow {
+    font-family: 'Pixelify Sans', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #DC00FF, 0 0 1em #DC00FF, 0 0 0.2em #DC00FF;
+}
+
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #DCAFFF;     /*colors of background of january 2024*/
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: #452A5A;     /*colors of the january 2024 text*/         
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 25px;
+    background-color: #DBC4F0;    /*colors of Mon Tue background*/ 
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #67517B;   /*colors of Mon Tue...*/
+    text-align: center;
+}
+
+.days {
+    padding: 25px 0;
+    background: #E3D7EE;   /*colors of the days background*/ 
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #270049;     /*the color of the day number*/
+    cursor: pointer;
+}
+
+.days li .active {      /*the colors of the active day - 9*/
+    padding: 6px;
+    background: #8F63B7;
+    color: #ECD7FF !important;
+}
+
+/*Media queries for smaller screens*/
+@media screen and (max-width: 720px) {
+    .weekdays li, .days li {
+        width: 13.1%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {
+        width: 12.5%;
+    }
+    .days li .active {
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {
+        width: 12.2%;
+    }
+}
+
+footer {
+    color: #fff;
+    padding-top: 80px;
+    text-align: center;
+}
