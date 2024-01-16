@@ -35,5 +35,33 @@ function myFunction9() {
 }
 
 function myFunction10() {
+    alert("Day 10: \nLearned a bit of Bootstrap from a Udemy course!");
+}
+
+function myFunction11() {
+    alert("Day 11: \nContinued the CSS course from Codédex!");
+}
+
+function myFunction12() {
+    alert("Day 12: \nALso continued with the CSS course, not so much done as my laptop crashed.");
+}
+
+function myFunction13() {
+    alert("Day 13: \nFinished the CSS course and started the final project!");
+}
+
+function myFunction14() {
+    alert("Day 14: \nSubmitted the final project of the CSS course and requested a certificate!");
+}
+
+function myFunction15() {
+    alert("Day 15: \nWeather App using APIs!");
+}
+
+function myFunction16() {
+    alert("Day 16: \nQuote generator using APIs!");
+}
+
+function myFunction17() {
     alert("Coming soon...");
 }
