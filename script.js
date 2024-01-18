@@ -63,5 +63,13 @@ function myFunction16() {
 }
 
 function myFunction17() {
+    alert("Day 16: \nNASA pic of the day with APIs!");
+}
+
+function myFunction18() {
+    alert("Day 16: \nModified this Calendar and started a JavaScript course!");
+}
+
+function myFunction19() {
     alert("Coming soon...");
 }
