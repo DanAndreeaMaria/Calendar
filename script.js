@@ -71,5 +71,53 @@ function myFunction18() {
 }
 
 function myFunction19() {
-    alert("Coming soon...");
+    alert("Day 19: \nYouTube video about APIs");
+}
+
+function myFunction20() {
+    alert("Day 20: \nAdded another NASA API to enjoy more space photos.");
+}
+
+function myFunction21() {
+    alert("Day 21: \nI created a small quiz with 10 questions!");
+}
+
+function myFunction22() {
+    alert("Day 22: \nTutorials about Frontend Webdev.");
+}
+
+function myFunction23() {
+    alert("Day 23: \nStarted the Git & GitHub course from @codedex_io");
+}
+
+function myFunction24() {
+    alert("Day 24: \nFinished my first repo using 100% GIT!");
+}
+
+function myFunction25() {
+    alert("Day 25: \nFinished the Git&GitHub course.");
+}
+
+function myFunction26() {
+    alert("Day 26: \nStarted the JavaScript course from Codédex!");
+}
+
+function myFunction27() {
+    alert("Day 27: \nI created a countdown for this challenge!");
+}
+
+function myFunction28() {
+    alert("Day 28: \nCreated a basic page with images and info using Bootstrap.");
+}
+
+function myFunction29() {
+    alert("Day 29: \nAdded modal and buttons for yesterday page.");
+}
+
+function myFunction30() {
+    alert("Day 30: \nAlmost finished the yesterday's page - 'Veggie World'");
+}
+
+function myFunction31() {
+    alert("Day 31: \nRest!");
 }
